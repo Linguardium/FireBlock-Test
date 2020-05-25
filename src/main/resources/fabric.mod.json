@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "${version}",
+  "name": "test",
+  "description": "test",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/test/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.testFire.testFire"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "test.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
